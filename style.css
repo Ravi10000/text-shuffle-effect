@@ -18,7 +18,7 @@ nav {
 }
 li {
   /* font-size: 2rem; */
-  font-weight: 500;
+  font-weight: bold;
   transition: transform 0.2s ease-in-out;
 }
 
@@ -27,6 +27,6 @@ li:hover {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 700;
+  /* font-weight: bolder; */
   transform: scale(1.2);
 }
