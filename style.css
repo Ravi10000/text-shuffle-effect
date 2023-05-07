@@ -1,0 +1,32 @@
+body {
+  background: #000;
+  min-height: 100vh;
+  color: #fff;
+  font-size: 3rem;
+  font-family: "Space Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+nav {
+  letter-spacing: 5px;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+li {
+  /* font-size: 2rem; */
+  font-weight: 500;
+  transition: transform 0.2s ease-in-out;
+}
+
+li:hover {
+  background: -webkit-linear-gradient(#48cae4, #ccd5ae);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  transform: scale(1.2);
+}
