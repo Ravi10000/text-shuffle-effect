@@ -23,7 +23,8 @@ li {
 }
 
 li:hover {
-  background: -webkit-linear-gradient(#48cae4, #ccd5ae);
+  /* background: -webkit-linear-gradient(#48cae4, #ccd5ae); */
+  background: #c1121f;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
